@@ -108,7 +108,7 @@ public class MasterScript : MonoBehaviour
 
     void OnGUI()
     {
-        vSliderValue = GUI.VerticalSlider(new Rect(50, 100, 100, 600), vSliderValue, 0.0f, 10.0f);
+        vSliderValue = GUI.VerticalSlider(new Rect(100, 100, 100, 800), vSliderValue, 0.0f, 45.0f);
     }
     public GameObject[] ui;
     void Update()
